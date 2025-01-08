@@ -5,7 +5,7 @@ eureka:
 
 spring:
   cloud:
-    gateway:
+    gateway2:
       routes:
         - id: GestionCours
           uri: lb://GestionCours
